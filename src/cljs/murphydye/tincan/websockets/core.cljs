@@ -1,7 +1,7 @@
-(ns murphydye.websockets.core
+(ns murphydye.tincan.websockets.core
   (:require [cognitect.transit :as t]
-            [murphydye.window :as win]
-            ;; [murphydye.websockets.router :as r]
+            [murphydye.utils.window :as win]
+            ;; [murphydye.tincan.websockets.router :as r]
             ))
 
 (defonce temp-client-seq-num (atom 0))

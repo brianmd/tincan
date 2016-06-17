@@ -1,7 +1,7 @@
 ;; Will add login info to connection
 ;; :customer and :authentication-token (to enable opening summit.com)
 
-(ns murphydye.websockets.login
+(ns murphydye.tincan.websockets.login
   (:require [cheshire.core :as ches]
             [clj-http.client :as client]
             ;; [clojure.tools.logging :as log]
@@ -9,8 +9,8 @@
             ;; [cognitect.transit :as transit]
 
             [murphydye.utils.core :refer [clojurize-map pp examples]]
-            [murphydye.websockets.router :as r :refer [add dispatch]]
-            [murphydye.websockets.core :as ws]
+            [murphydye.tincan.websockets.router :as r :refer [add dispatch]]
+            [murphydye.tincan.websockets.core :as ws]
             ))
 
 (defn login [state _ m])

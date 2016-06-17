@@ -1,4 +1,4 @@
-(ns murphydye.websockets.router
+(ns murphydye.tincan.websockets.router
   (:require [clojure.tools.logging :as log]
             [murphydye.utils.core :refer :all]
             ))

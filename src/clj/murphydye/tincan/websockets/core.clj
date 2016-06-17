@@ -1,12 +1,12 @@
-(ns murphydye.websockets.core
+(ns murphydye.tincan.websockets.core
   (:require [compojure.core :refer [GET defroutes wrap-routes]]
             [clojure.tools.logging :as log]
             [immutant.web.async :as async]
             [cognitect.transit :as transit]
 
             [murphydye.utils.core :as utils]
-            [murphydye.websockets.router :as r :refer [add dispatch]]
-            [murphydye.websockets.router :as r]
+            [murphydye.tincan.websockets.router :as r :refer [add dispatch]]
+            [murphydye.tincan.websockets.router :as r]
             )
   (:import [java.io ByteArrayInputStream ByteArrayOutputStream]
            [java.nio.charset StandardCharsets]

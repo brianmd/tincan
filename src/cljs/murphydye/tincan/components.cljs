@@ -1,15 +1,15 @@
 ;; component contains buttons which open other components in windows
 
-(ns murphydye.components
+(ns murphydye.tincan.components
   (:require [reagent.core :as r]
-            [murphydye.websockets.core :as ws]
-            [murphydye.window :as win]
-            [murphydye.websockets.chatr :as chatr]
-            [murphydye.websockets.stress-test :refer [stress-test-component]]
-            [murphydye.websockets.dbexplorer.core :refer [dbexplorer-component]]
-            [murphydye.websockets.router :as router]
+            [murphydye.utils.window :as win]
+            [murphydye.tincan.websockets.core :as ws]
+            [murphydye.tincan.websockets.chatr :as chatr]
+            [murphydye.tincan.websockets.stress-test :refer [stress-test-component]]
+            [murphydye.tincan.websockets.dbexplorer.core :refer [dbexplorer-component]]
+            [murphydye.tincan.websockets.router :as router]
 
-            [murphydye.fixed-data-table :as tbl]
+            [murphydye.utils.fixed-data-table :as tbl]
             ))
 
 (defn send-message [v]

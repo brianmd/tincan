@@ -1,4 +1,4 @@
-(ns murphydye.websockets.dbexplorer
+(ns murphydye.tincan.websockets.dbexplorer
   (:require 
             ;; [korma.core :as k]
             [korma.db :as kdb]
@@ -6,9 +6,9 @@
             [clojure.java.jdbc :as j]
 
             [murphydye.utils.core :refer :all]
-            [murphydye.websockets.router :as r :refer [add]]
-            [murphydye.websockets.core :as ws]
-            [murphydye.websockets.dbexplorer-dbs :as db-env]
+            [murphydye.tincan.websockets.router :as r :refer [add]]
+            [murphydye.tincan.websockets.core :as ws]
+            [murphydye.tincan.websockets.dbexplorer-dbs :as db-env]
             ;; [summit.step.restapi :as restapi]
             ;; [summit.db.step :refer [get-golden-product]]
 

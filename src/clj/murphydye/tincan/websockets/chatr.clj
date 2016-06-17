@@ -1,13 +1,13 @@
-(println "loading murphydye.websockets.chatr")
+(println "loading murphydye.tincan.websockets.chatr")
 
-(ns murphydye.websockets.chatr
+(ns murphydye.tincan.websockets.chatr
   (:require [clojure.tools.logging :as log]
             [immutant.web.async :as async]
             [cognitect.transit :as transit]
 
             [murphydye.utils.core :as utils]
-            [murphydye.websockets.router :as r :refer [add]]
-            [murphydye.websockets.core :as ws]
+            [murphydye.tincan.websockets.router :as r :refer [add]]
+            [murphydye.tincan.websockets.core :as ws]
             ))
 
 (defonce rooms-seq-num (atom 0))
@@ -135,7 +135,7 @@
     actor))
 
 
-(println "done loading murphydye.websockets.chatr")
+(println "done loading murphydye.tincan.websockets.chatr")
 "     server side
 one web socket handler per server
     has many connections

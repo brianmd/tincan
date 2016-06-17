@@ -1,5 +1,5 @@
-(ns murphydye.websockets.timer
-  (:require [murphydye.websockets.router :as r]
+(ns murphydye.tincan.websockets.timer
+  (:require [murphydye.tincan.websockets.router :as r]
             ;; [murphydye.components :as components]
             ))
 

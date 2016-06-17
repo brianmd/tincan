@@ -1,12 +1,12 @@
-(ns murphydye.websockets.dbexplorer.core
+(ns murphydye.tincan.websockets.dbexplorer.core
   (:require-macros [reagent.ratom :refer [reaction]])
   (:require [reagent.core :as r :refer [atom]]
             [clojure.string :as string]
             ;; [cljs.pprint :refer [pprint]]
 
-            [murphydye.websockets.core :as ws]
-            [murphydye.window :as win]
-            [murphydye.websockets.router :as router]
+            [murphydye.tincan.websockets.core :as ws]
+            [murphydye.utils.window :as win]
+            [murphydye.tincan.websockets.router :as router]
             ))
 
 ;; (def app-state

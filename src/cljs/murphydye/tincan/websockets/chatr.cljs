@@ -1,11 +1,11 @@
-(ns murphydye.websockets.chatr
+(ns murphydye.tincan.websockets.chatr
   (:require-macros [reagent.ratom :refer [reaction]])
   (:require [reagent.core :as r]
-            [murphydye.websockets.core :as ws]
-            [murphydye.websockets.stress-test :as stress]
-            [murphydye.websockets.dbexplorer.core :as dbexplorer]
-            [murphydye.window :as win]
-            [murphydye.websockets.router :as router]
+            [murphydye.tincan.websockets.core :as ws]
+            [murphydye.tincan.websockets.stress-test :as stress]
+            [murphydye.tincan.websockets.dbexplorer.core :as dbexplorer]
+            [murphydye.utils.window :as win]
+            [murphydye.tincan.websockets.router :as router]
             ))
 
 

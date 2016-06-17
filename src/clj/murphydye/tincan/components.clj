@@ -1,17 +1,17 @@
-(println "loading murphydye.components")
+(println "loading murphydye.tincan.components")
 
 ;; This namespace references all the other components
 ;; The application can reference solely this namespace
 ;; without concern for cyclical dependencies
 
-(ns murphydye.components
+(ns murphydye.tincan.components
   (:require ;
-            ;; [murphydye.websockets.core :as ws]
-            [murphydye.websockets.router :as r]
-            [murphydye.websockets.global :as global]
-            [murphydye.websockets.chatr :as chatr]
-            [murphydye.websockets.stress-test :as stress-test]
-            [murphydye.websockets.dbexplorer :as dbexplorer]
+            ;; [murphydye.tincan.websockets.core :as ws]
+            [murphydye.tincan.websockets.router :as r]
+            [murphydye.tincan.websockets.global :as global]
+            [murphydye.tincan.websockets.chatr :as chatr]
+            [murphydye.tincan.websockets.stress-test :as stress-test]
+            [murphydye.tincan.websockets.dbexplorer :as dbexplorer]
             ))
 
 (defn load-components []

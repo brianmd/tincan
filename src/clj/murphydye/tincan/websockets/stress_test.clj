@@ -1,6 +1,6 @@
-(println "loading murphydye.websockets.stress-test")
+(println "loading murphydye.tincan.websockets.stress-test")
 
-(ns murphydye.websockets.stress-test
+(ns murphydye.tincan.websockets.stress-test
   (:require [clojure.tools.logging :as log]
             [immutant.web.async :as async]
             [cognitect.transit :as transit]
@@ -8,8 +8,8 @@
             [clojure.set :refer [difference]]
 
             [murphydye.utils.core :refer :all]
-            [murphydye.websockets.router :as r :refer [add]]
-            [murphydye.websockets.core :as ws]
+            [murphydye.tincan.websockets.router :as r :refer [add]]
+            [murphydye.tincan.websockets.core :as ws]
             ))
 
 "

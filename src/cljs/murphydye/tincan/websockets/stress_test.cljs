@@ -1,9 +1,9 @@
-(ns murphydye.websockets.stress-test
+(ns murphydye.tincan.websockets.stress-test
   (:require [reagent.core :as r]
             ;; [re-com.core   :refer [h-box v-box box gap line input-text input-textarea label checkbox radio-button slider title p]]
-            [murphydye.websockets.core :as ws]
-            [murphydye.window :as win :refer [alert]]
-            [murphydye.websockets.router :as router]
+            [murphydye.tincan.websockets.core :as ws]
+            [murphydye.utils.window :as win :refer [alert]]
+            [murphydye.tincan.websockets.router :as router]
             ))
 
 (defonce client-seq-num (atom 0))

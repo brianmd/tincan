@@ -1,6 +1,6 @@
-(ns murphydye.websockets.router
+(ns murphydye.tincan.websockets.router
   (:require ;; use first for clojurescript, second for clojure
-            [murphydye.window :as win]
+            [murphydye.utils.window :as win]
             ;; [clojure.tools.logging :as log]
             ))
 ;; these two methods change between clojure and clojurescript
